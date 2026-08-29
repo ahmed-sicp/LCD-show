@@ -1,5 +1,4 @@
 #!/bin/bash
-# pi5-mhs35-native.sh
 # Native Wayland/KMS configuration for SPI displays on Raspberry PI 5. No fbcp, no legacy X11 drivers, uses built-in kernel overlays
 
 if [ "$EUID" -ne 0 ]; then
