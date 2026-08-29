@@ -1,4 +1,4 @@
-This updated script works on its own because it abandons the legacy fbcp compilation process and instead relies purely on the native tools and kernel modules already present in a modern Raspberry Pi OS:
+This updated script works on its own because it abandons the legacy fbcp compilation process and instead relies purely on the native tools and kernel modules already present in Debian Trixie (13) + Raspberry Pi OS.
 
 * `Standard Linux Utilities: The script exclusively uses built-in shell commands (sed, grep, cat, cp) to safely parse, backup, and modify system configuration files.`
 
